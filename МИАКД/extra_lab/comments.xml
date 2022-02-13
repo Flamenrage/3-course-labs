@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="comments.xsl"?>
+
+<comments>
+    <comment id="1">
+        <text>Omg, cool</text>
+        <author>redcat99</author>
+        <videoId>1</videoId>
+    </comment>
+    <comment id="2">
+        <text>This show is so intense</text>
+        <author>cooldancer10</author>
+        <videoId>2</videoId>
+    </comment>
+    <comment id="3">
+        <text>The films are unbelievable, really</text>
+        <author>moviefan56</author>
+        <videoId>3</videoId>
+    </comment>
+    <comment id="4">
+        <text>incredible ceremony</text>
+        <author>teenagerdude</author>
+        <videoId>3</videoId>
+    </comment>
+</comments>

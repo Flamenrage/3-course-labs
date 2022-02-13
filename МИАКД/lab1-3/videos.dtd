@@ -1,0 +1,5 @@
+<!ELEMENT videos (video+)>
+        <!ELEMENT video (name, description,lasting)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT lasting (#PCDATA)>

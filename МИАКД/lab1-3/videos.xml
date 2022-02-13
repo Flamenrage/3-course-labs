@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="videos.xsl"?>
+
+<!DOCTYPE videos SYSTEM "videos.dtd">
+<videos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="videos.xsd">
+    <!--Internet Explorer 11.0-->
+    <video>
+        <name>TV-News</name>
+        <description>Fresh february news</description>
+        <lasting>36</lasting>
+    </video>
+    <video>
+        <name>Tennis-2021</name>
+        <description>Tennis championship for young sportsmen</description>
+        <lasting>106</lasting>
+    </video>
+    <video>
+        <name>Oscar-2021</name>
+        <description>The official ceremony of Oscar 2021</description>
+        <lasting>180</lasting>
+    </video>
+</videos>

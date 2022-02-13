@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <xs:element name="videos">
+                <xs:complexType>
+                        <xs:sequence>
+                                <xs:element name="video" minOccurs="3" maxOccurs="1000">
+                                        <xs:complexType>
+                                                <xs:sequence>
+                                                        <xs:element name="name" type="xs:string"/>
+                                                        <xs:element name="description" type="xs:string"/>
+                                                        <xs:element name="lasting">
+                                                                <xs:simpleType>
+                                                                        <xs:restriction base="xs:integer">
+                                                                                <xs:minInclusive value="1"/>
+                                                                                <xs:maxInclusive value="360"/>
+                                                                        </xs:restriction>
+                                                                </xs:simpleType>
+                                                        </xs:element>
+                                                </xs:sequence>
+                                        </xs:complexType>
+                                </xs:element>
+                        </xs:sequence>
+                </xs:complexType>
+        </xs:element>
+</xs:schema>
